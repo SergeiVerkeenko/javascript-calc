@@ -29,6 +29,9 @@ calc.addEventListener('click', function (event) {
         case '=':
             result.innerText = eval(result.innerText)
             break;
+        case 'tng':
+            result.innerText = `${Math.tan(result.innerText)}`
+            break;
 
         default:
             result.innerText += value
