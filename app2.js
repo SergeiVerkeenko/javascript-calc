@@ -1,5 +1,6 @@
 const calc = document.querySelector('.calc');
 const result = document.querySelector('#result')
+const history = document.querySelector('#history')
 calc.addEventListener('click', function (event) {
     if (!event.target.classList.contains('calc-btn')) return;
     const value = event.target.innerText;
