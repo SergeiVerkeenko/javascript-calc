@@ -6,15 +6,14 @@ calc.addEventListener('click', function (event) {
     const value = event.target.innerText;
 
     switch (value) {
-
         case 'cos':
             result.innerText = `${Math.cos(result.innerText)}`
             break;
 
-        case '♥':
+            case '♥':
             result.innerText = 'Калькулятор признается тебе в любви'
             break;
-
+            
         case 'sin':
             result.innerText = `${Math.sin(result.innerText)}`
             break;
@@ -25,10 +24,12 @@ calc.addEventListener('click', function (event) {
 
         case 'C':
             result.innerText = ''
+            history.innerText = '';
             break;
 
         case '=':
             result.innerText = eval(result.innerText)
+            history.innerText = '';
             break;
         case 'tng':
             result.innerText = `${Math.tan(result.innerText)}`
@@ -36,5 +37,6 @@ calc.addEventListener('click', function (event) {
 
         default:
             result.innerText += value
+            history.innerText += value;
     }
 });
