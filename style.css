@@ -1,13 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Geostar Fill';
 }
 
 .form-calc {
     width: 540px;
     height: 540px;
-    left: 0px;
-    top: 0px;
     margin: auto;
     background: #00746D;
     border: 3px solid #000000;
@@ -17,14 +16,12 @@
 .form-panel {
     width: 507px;
     height: 351px;
-    left: 16px;
-    top: 172px;
 
     background: #D9D9D9;
     border: 2px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
-    margin: 172px 0 0 16px;
+    margin: 37px 0 0 16px;
 }
 
 .form-uslov {
@@ -40,8 +37,12 @@
 }
 
 .calc_res {
-    width: 40px;
-    height: 40px;
-    left: 0px;
-    top: 0px;
+    width: 400px;
+    height: 37px;
+    background: rgba(28, 129, 158, 0.3);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    font-size: 26px;
 }
